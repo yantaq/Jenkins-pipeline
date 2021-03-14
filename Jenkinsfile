@@ -14,7 +14,7 @@ pipeline {
 
     }
 
-    stages("test") {
+    stage("test") {
 
       steps {
 
@@ -24,7 +24,7 @@ pipeline {
 
     }
 
-    stages("deploy") {
+    stage("deploy") {
 
       steps {
 
